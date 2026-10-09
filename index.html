@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Marciene Mendes | Massagem somato-emocional em Congonhas, MG</title>
+<meta name="description" content="Terapeuta corporal em Congonhas, MG. Massagem profunda com escuta acolhedora: você escolhe falar ou ficar em silêncio. O que você não diz, minhas mãos escutam.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Lato:wght@300;400;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+<style>
+:root{--terra:#B8603A;--terra-d:#8E4527;--sage:#A9C8B4;--sage-d:#5E8570;--lav:#8E7CB3;--cream:#FBF5EE;--sand:#F1E4D5;--ink:#3A2C26;--mute:#7A6A60}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:'Lato',sans-serif;color:var(--ink);background:var(--cream);line-height:1.65;font-size:17px}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;color:var(--terra-d);line-height:1.1;margin:0 0 .4em}
+h1{font-size:clamp(2.4rem,6vw,4.2rem);font-weight:700}
+h2{font-size:clamp(2rem,4.5vw,3rem);font-weight:700}
+h3{font-size:1.5rem}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
+section{padding:84px 0;scroll-margin-top:68px}
+.eyebrow{font-size:.78rem;letter-spacing:.22em;text-transform:uppercase;color:var(--sage-d);font-weight:700;margin-bottom:10px}
+.script{font-family:'Pinyon Script',cursive;color:var(--terra);font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.2}
+.btn{display:inline-block;padding:14px 26px;border-radius:40px;font-weight:700;text-decoration:none;font-size:.95rem;transition:.2s;border:2px solid var(--terra);cursor:pointer}
+.btn.fill{background:var(--terra);color:#fff}.btn.fill:hover{background:var(--terra-d);border-color:var(--terra-d)}
+.btn.line{background:transparent;color:var(--terra-d)}.btn.line:hover{background:var(--terra);color:#fff}
+header{position:sticky;top:0;z-index:50;background:rgba(251,245,238,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--sand)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.nav img{height:42px}
+.nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
+.nav a{text-decoration:none;font-size:.88rem;font-weight:700;color:var(--ink)}
+.nav a:hover{color:var(--terra)}
+.nav .btn{padding:9px 18px;font-size:.82rem}
+.burger{display:none;background:none;border:0;font-size:1.7rem;color:var(--terra-d)}
+.hero{position:relative;padding:0;min-height:min(88vh,720px);display:flex;align-items:center;color:#fff;background:#2b1d17}
+.hero::before{content:"";position:absolute;inset:0;background:url('assets/spa-ambiente-DT-0Y71L.jpg') center/cover;opacity:.55}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(43,29,23,.88),rgba(43,29,23,.35))}
+.hero .wrap{position:relative;z-index:2;padding-top:60px;padding-bottom:60px}
+.hero h1{color:#fff;max-width:760px}
+.hero .eyebrow{color:var(--sage)}
+.hero p.lead{max-width:600px;font-size:1.15rem;color:#f4e9de}
+.hero .script{color:#F4C9A8;margin:.3em 0 .8em}
+.hero .actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:24px}
+.hero .btn.line{color:#fff;border-color:#fff}.hero .btn.line:hover{background:#fff;color:var(--terra-d)}
+.sobre-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
+.sobre-grid .photo{border-radius:240px 240px 16px 16px;overflow:hidden;box-shadow:0 20px 50px rgba(142,69,39,.18)}
+.stats{display:flex;gap:40px;margin:26px 0}
+.stats b{font-family:'Cormorant Garamond',serif;font-size:2.8rem;color:var(--terra);display:block;line-height:1}
+.stats span{font-size:.85rem;color:var(--mute)}
+.alt{background:#fff}
+.sand{background:var(--sand)}
+.title-c{text-align:center;max-width:720px;margin:0 auto 46px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+.card{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 6px 24px rgba(142,69,39,.09);display:flex;flex-direction:column}
+.card img{height:200px;width:100%;object-fit:cover}
+.card .in{padding:20px 22px 24px}
+.card p{margin:.4em 0 0;color:#5b4a41;font-size:.96rem}
+.featured{display:grid;grid-template-columns:1.1fr 1fr;background:linear-gradient(135deg,var(--terra-d),var(--terra));border-radius:22px;overflow:hidden;margin-bottom:26px;color:#fff;box-shadow:0 18px 44px rgba(142,69,39,.28)}
+.featured img{height:100%;width:100%;object-fit:cover;min-height:340px}
+.featured .in{padding:38px 36px}
+.featured h3{color:#fff;font-size:2.1rem}
+.featured .tag{display:inline-block;background:rgba(255,255,255,.18);border-radius:20px;padding:3px 14px;font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:12px}
+.featured ul{padding-left:1.1em;margin:14px 0 22px}
+.featured .btn.fill{background:#fff;color:var(--terra-d);border-color:#fff}
+.modes{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.mode{border-radius:20px;padding:34px;background:#fff;border-top:6px solid var(--sage-d);box-shadow:0 8px 28px rgba(0,0,0,.06)}
+.mode.b{border-color:var(--terra)}
+.mode h3{font-size:2rem}
+.mode .promise{font-weight:700;color:var(--terra-d)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:40px}
+.step{text-align:center;padding:24px 16px;background:#fff;border-radius:16px}
+.step .n{width:46px;height:46px;border-radius:50%;background:var(--terra);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:700;margin:0 auto 10px}
+.step small{color:var(--mute);display:block}
+.mapa{display:grid;grid-template-columns:420px 1fr;gap:46px;align-items:center}
+.mapa svg{width:100%;height:auto}
+.zone{cursor:pointer;transition:.2s}
+.zone:hover,.zone.on{fill-opacity:.95}
+.mapa .panel{background:#fff;border-radius:18px;padding:30px;min-height:290px;box-shadow:0 8px 28px rgba(0,0,0,.06)}
+.mapa .panel h3{font-size:1.9rem}
+.mapa .panel .hint{color:var(--mute);font-size:.88rem;margin-top:14px}
+.mapa .q{font-style:italic;color:var(--terra-d);font-size:1.1rem}
+.ethics{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.ethics .col{background:#fff;border-radius:16px;padding:28px}
+.ethics .no{border-top:5px solid #B23A3A}.ethics .yes{border-top:5px solid var(--sage-d)}
+.ethics ul{padding-left:1.1em;margin:10px 0 0}
+.diff{display:grid;grid-template-columns:1fr 1.1fr;gap:50px;align-items:center}
+.diff .list>div{padding:18px 0;border-bottom:1px solid var(--sand)}
+.diff img{border-radius:20px;box-shadow:0 18px 44px rgba(0,0,0,.14)}
+.quotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.quote{background:#fff;border-radius:16px;padding:28px;border-left:5px solid var(--terra)}
+.quote p{font-style:italic}.quote b{display:block;margin-top:12px;color:var(--terra-d)}
+.espaco{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;align-items:stretch}
+.espaco img{border-radius:16px;height:100%;object-fit:cover;min-height:260px}
+.espaco .txt{display:flex;flex-direction:column;justify-content:center;gap:18px}
+details{background:#fff;border-radius:12px;padding:16px 22px;margin:10px 0;box-shadow:0 3px 12px rgba(0,0,0,.05)}
+summary{cursor:pointer;font-weight:700;color:var(--terra-d)}
+.contato{background:linear-gradient(160deg,#3A2C26,#5a3b2e);color:#f4e9de}
+.contato h2{color:#fff}
+.contato .grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.contato .info p{margin:.6em 0}
+.contato img.logo{height:60px;background:#fff;border-radius:10px;padding:6px 14px;margin-bottom:18px}
+.form{background:#fff;color:var(--ink);border-radius:20px;padding:30px}
+.form label{display:block;font-size:.84rem;font-weight:700;margin:14px 0 4px;color:var(--terra-d)}
+.form input,.form select{width:100%;padding:12px 14px;border:1px solid #e0d0c0;border-radius:10px;font:inherit}
+.form .btn{width:100%;margin-top:22px;text-align:center}
+.form small{display:block;margin-top:12px;color:var(--mute);font-size:.8rem}
+footer{background:#2b1d17;color:#c9b8aa;text-align:center;padding:34px 22px;font-size:.85rem}
+.wa{position:fixed;right:18px;bottom:18px;z-index:60;background:#25D366;color:#fff;border-radius:50px;padding:13px 20px;font-weight:700;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.25);font-size:.9rem}
+@media(max-width:900px){
+ .nav ul{display:none;position:absolute;top:68px;left:0;right:0;background:var(--cream);flex-direction:column;padding:18px 22px;gap:14px;border-bottom:1px solid var(--sand)}
+ .nav ul.open{display:flex}.burger{display:block}.nav .btn{display:none}
+ .sobre-grid,.featured,.modes,.ethics,.diff,.contato .grid,.mapa,.espaco{grid-template-columns:1fr}
+ .steps{grid-template-columns:1fr 1fr}
+ section{padding:60px 0}
+ .sobre-grid .photo{max-width:340px;margin:0 auto}
+}
+</style>
+</head>
+<body>
+
+<header><div class="wrap nav">
+<a href="#inicio"><img src="assets/logo-marciene-8ZEQM9sk.png" alt="Marciene Mendes"></a>
+<button class="burger" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">&#9776;</button>
+<ul id="menu">
+<li><a href="#inicio">Início</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#servicos">Serviços</a></li>
+<li><a href="#metodo">O Método</a></li><li><a href="#diferenciais">Diferenciais</a></li><li><a href="#depoimentos">Depoimentos</a></li><li><a href="#contato">Contato</a></li>
+</ul>
+<a class="btn fill" href="#contato">Agendar Sessão</a>
+</div></header>
+
+<section class="hero" id="inicio"><div class="wrap">
+<div class="eyebrow">Estúdio Boutique em Minas Gerais</div>
+<h1>Uma massagem profunda que também escuta</h1>
+<div class="script">O que você não diz, minhas mãos escutam.</div>
+<p class="lead">Relaxamento profundo, cuidado corporal e um espaço seguro onde você escolhe: falar tudo o que pesa ou ficar em silêncio. Seu corpo faz a conversa.</p>
+<div class="actions">
+<a class="btn fill" id="wa1" href="#contato">Solicitar Disponibilidade</a>
+<a class="btn line" href="#metodo">Conhecer o Método</a>
+</div></div></section>
+
+<section id="sobre"><div class="wrap sobre-grid">
+<div class="photo"><img src="assets/marciene-foto-BiCtUOHQ.jpg" alt="Marciene Mendes, terapeuta corporal" loading="lazy"></div>
+<div>
+<div class="eyebrow">Hospitalidade Mineira</div>
+<h2>Com Toque de Sofisticação</h2>
+<h3>Sou Marciene Mendes</h3>
+<p>Minha trajetória é feita de superação, e foi nela que aprendi o valor de ser cuidada de verdade. Desde então, não parei de estudar: cada técnica nova me mostrou que o corpo e a mente conversam o tempo todo.</p>
+<p>Por isso vejo a massagem como uma conexão entre corpo e mente. Além do alívio muscular, existe o alívio de ser ouvida sem julgamento, sem pressa, e no seu próprio ritmo.</p>
+<p>No meu estúdio, em Congonhas, você encontra presença, cuidado e transformação. Atuo como terapeuta corporal. Não faço psicoterapia nem diagnósticos, e encaminho com carinho quando você precisa de mais.</p>
+<div class="stats"><div><b>10+</b><span>anos de experiência</span></div><div><b>300+</b><span>clientes atendidos</span></div></div>
+<a class="btn line" href="https://instagram.com/studio.marcienemendes" target="_blank" rel="noopener">@studio.marcienemendes</a>
+</div></div></section>
+
+<section id="servicos" class="alt"><div class="wrap">
+<div class="title-c"><div class="eyebrow">Nossas Ofertas</div><h2>Serviços Exclusivos</h2>
+<p>Do alívio muscular profundo à nova sessão que une toque e escuta.</p></div>
+
+<div class="featured">
+<img src="assets/massagem-sessao-BvLfZwQI.jpg" alt="Sessão de massagem somato-emocional" loading="lazy">
+<div class="in"><span class="tag">Novidade</span>
+<h3>Sessão Toque &amp; Desabafo</h3>
+<p>Massagem somato-emocional integrativa de 75 a 90 minutos. Toque profundo, respiração guiada e escuta acolhedora, de orientação psicanalítica, para soltar o corpo e o peso da semana.</p>
+<ul><li>Modo Silêncio: você não precisa dizer nada</li><li>Modo Desabafo: você pode colocar para fora, sem julgamento</li><li>Chá de boas-vindas, aromas e música restauradora</li></ul>
+<a class="btn fill" href="#metodo">Como funciona</a></div></div>
+
+<div class="cards">
+<div class="card"><img src="assets/massage-gun-CqrX6GYw.jpg" alt="Massagem com pistola profissional" loading="lazy"><div class="in"><h3>Massagem com Pistola Profissional</h3><p>Percussão profunda para alívio muscular, recuperação esportiva e performance física masculina.</p></div></div>
+<div class="card"><img src="assets/pedras-vulcanicas-B2RbZDsI.jpg" alt="Ritual das pedras vulcânicas" loading="lazy"><div class="in"><h3>Ritual das Pedras Vulcânicas</h3><p>Pedras aquecidas para tensões profundas, circulação e relaxamento.</p></div></div>
+<div class="card"><img src="assets/massage-feminina-BzUEQjAC.jpg" alt="Massagem modeladora" loading="lazy"><div class="in"><h3>Massagem Modeladora</h3><p>Técnicas para emagrecimento e modelagem corporal feminina.</p></div></div>
+<div class="card"><img src="assets/spa-ambiente-DT-0Y71L.jpg" alt="Massagem signature relaxante" loading="lazy"><div class="in"><h3>Massagem Signature Relaxante</h3><p>Combina múltiplas técnicas para um relaxamento completo. Pode ser feita também no Modo Silêncio.</p></div></div>
+</div></div></section>
+
+<section id="metodo"><div class="wrap">
+<div class="title-c"><div class="eyebrow">O Método</div><h2>Toque &amp; Desabafo™</h2>
+<p>Corpo e escuta no mesmo cuidado. Você escolhe como quer ser cuidada(o), e pode mudar de ideia no meio da sessão.</p></div>
+<div class="modes">
+<div class="mode"><h3>Modo Silêncio</h3><p class="promise">Você não precisa dizer nada.</p>
+<p>A mesma massagem profunda, com ritmo mais lento, respiração guiada e presença. Eu observo o que o seu corpo mostra e falo apenas o essencial. O corpo faz a conversa.</p></div>
+<div class="mode b"><h3>Modo Desabafo</h3><p class="promise">Você pode colocar para fora, sem julgamento.</p>
+<p>Enquanto o corpo é tocado, a mente pode falar. Eu escuto com atenção, faço poucas perguntas e deixo o silêncio trabalhar. Nada do que você disser sai desta sala.</p></div>
+</div>
+<div class="steps">
+<div class="step"><div class="n">1</div><b>Acolhimento</b><small>Chá, escolha do modo e combinados</small></div>
+<div class="step"><div class="n">2</div><b>Respiração</b><small>Chegada ao corpo, ritmo calmo</small></div>
+<div class="step"><div class="n">3</div><b>Toque e escuta</b><small>Descompressão profunda das regiões que pedem</small></div>
+<div class="step"><div class="n">4</div><b>Integração</b><small>Silêncio final, água e uma pergunta</small></div>
+</div>
+</div></section>
+
+<section class="sand"><div class="wrap">
+<div class="title-c"><div class="eyebrow">Mapa do Corpo</div><h2>O que o corpo costuma guardar</h2>
+<p>Toque em uma região. São <b>pistas e perguntas</b>, não diagnósticos: cada corpo conta a sua própria história.</p></div>
+<div class="mapa">
+<div id="mapsvg"></div>
+<div class="panel" id="panel"><h3>Escolha uma região</h3><p>Toque nos círculos numerados do mapa para conhecer as pistas e a pergunta de abertura que uso na sessão.</p><p class="hint">Dor persistente deve ser avaliada por médico ou fisioterapeuta. A sessão complementa, não substitui.</p></div>
+</div></div></section>
+
+<section id="diferenciais"><div class="wrap diff">
+<div><div class="eyebrow">Nosso Diferencial</div><h2>Por Que Nos Escolher?</h2>
+<div class="list">
+<div><h3>Equipamentos Profissionais</h3><p>Pistola e ferramentas de última geração, com técnica manual de precisão.</p></div>
+<div><h3>Luxo Personalizado</h3><p>Tratamentos adaptados a emagrecimento, recuperação muscular, relaxamento ou descompressão emocional.</p></div>
+<div><h3>Escuta com Ética</h3><p>Acolhimento sem julgamento, sigilo total e encaminhamento a psicólogos quando necessário. Eu cuido do corpo e respeito o seu tempo.</p></div>
+<div><h3>Profissional Qualificada</h3><p>Terapeuta experiente, com excelência e discrição.</p></div>
+</div></div>
+<div><img src="assets/studio-ambiente-CnL20YJd.jpg" alt="Estúdio Marciene Mendes, ambiente acolhedor" loading="lazy"><p style="text-align:center;color:var(--mute);font-size:.85rem;margin-top:10px">Estúdio Marciene Mendes, ambiente acolhedor</p></div>
+</div></section>
+
+<section class="alt"><div class="wrap">
+<div class="title-c"><div class="eyebrow">Ética e limites</div><h2>O que eu faço e o que eu não faço</h2></div>
+<div class="ethics">
+<div class="col yes"><h3>Eu faço</h3><ul><li>Massagem profunda com escuta acolhedora.</li><li>Respeito o seu silêncio e o seu tempo.</li><li>Guardo sigilo total do que é dito na maca.</li><li>Encaminho a psicólogo, psiquiatra ou médico quando percebo que é preciso.</li></ul></div>
+<div class="col no"><h3>Eu não faço</h3><ul><li>Psicoterapia, diagnósticos ou prescrição de medicamentos.</li><li>Promessa de cura ou de resultado clínico.</li><li>Conselhos morais, julgamento ou pressão para você falar.</li><li>Substituir o seu acompanhamento psicológico ou médico.</li></ul></div>
+</div></div></section>
+
+<section id="depoimentos"><div class="wrap">
+<div class="title-c"><h2>O Que Nossos Clientes Dizem</h2></div>
+<div class="quotes">
+<div class="quote"><p>Uma experiência transformadora. Saí com uma sensação de renovação e de paz.</p><b>Lucas Silva, Empresário</b></div>
+<div class="quote"><p>Ambiente acolhedor e resultados visíveis com a massagem modeladora.</p><b>Ana Costa, Professora</b></div>
+<div class="quote"><p>Profissional excepcional. A pistola ajudou muito na minha recuperação muscular.</p><b>Pedro Almeida, Atleta</b></div>
+</div></div></section>
+
+<section class="sand"><div class="wrap">
+<div class="title-c"><div class="eyebrow">Nosso Espaço</div><h2>Um Refúgio de Cuidado e Elegância</h2></div>
+<div class="espaco">
+<img src="assets/recepcao-studio-DFFBD6kh.jpg" alt="Recepção do estúdio" loading="lazy">
+<div class="txt"><div class="card"><div class="in"><h3>Cuidado que Transforma</h3><p>Técnicas especializadas em um ambiente acolhedor, com luz baixa, aromas e música restauradora.</p></div></div>
+<div class="card"><div class="in"><h3>Ambiente Exclusivo</h3><p>Cada detalhe pensado para o seu bem-estar e para a sua privacidade.</p></div></div></div>
+<img src="assets/massagem-sessao-BvLfZwQI.jpg" alt="Sala de atendimento" loading="lazy">
+</div></div></section>
+
+<section><div class="wrap" style="max-width:760px">
+<div class="title-c"><h2>Perguntas frequentes</h2></div>
+<details><summary>Preciso falar durante a sessão?</summary><p>Não. No Modo Silêncio você não precisa dizer nada. Se em algum momento quiser falar, o espaço é seu.</p></details>
+<details><summary>É psicoterapia?</summary><p>Não. É uma massagem com escuta acolhedora. Não faço diagnóstico nem tratamento psicológico, e não substituo o acompanhamento com psicólogo ou psiquiatra. Quando percebo que você precisa de mais, encaminho.</p></details>
+<details><summary>Quanto dura e quanto custa?</summary><p>A sessão completa dura de 75 a 90 minutos. Os valores e a disponibilidade são passados pelo WhatsApp, e há condição especial na Turma Fundadora de lançamento.</p></details>
+<details><summary>E se eu chorar?</summary><p>Tudo bem. Reduzo o ritmo, mantenho o toque firme e deixo você descarregar no seu tempo, sem pressa e sem julgamento.</p></details>
+<details><summary>Posso mudar de modo no meio?</summary><p>Pode. Você começa no silêncio e passa a falar, ou o contrário, quando quiser.</p></details>
+<details><summary>Quem não deve fazer?</summary><p>Quem tem febre, infecção, suspeita de trombose, gravidez sem liberação médica, uso de anticoagulantes ou outras condições de saúde precisa avisar antes. Faço uma ficha de acolhimento na chegada.</p></details>
+</div></section>
+
+<section class="contato" id="contato"><div class="wrap grid">
+<div class="info"><img class="logo" src="assets/logo-marciene-8ZEQM9sk.png" alt="Marciene Mendes">
+<h2>Agende Sua Experiência de Bem-Estar</h2>
+<p><b>Endereço:</b> Rua Marechal Floriano, nº 92, sala 208, Congonhas, MG</p>
+<p><b>WhatsApp:</b> (31) 98479-4042</p>
+<p><b>E-mail:</b> contato@marcienemendes.top</p>
+<p><b>Horário:</b> Seg a Sex, 17h às 21h. Sáb, 9h às 18h.</p>
+<p class="script" style="color:#F4C9A8">O que você não diz, minhas mãos escutam.</p>
+<a class="btn fill" id="wa2" href="#" target="_blank" rel="noopener">Solicitar Disponibilidade</a>
+</div>
+<form class="form" id="f" onsubmit="return enviar(event)">
+<h3>Receba os horários pelo WhatsApp</h3>
+<label>Seu nome</label><input id="nome" required>
+<label>Como prefere ser cuidada(o)?</label>
+<select id="modo"><option>Ainda não sei, quero conhecer</option><option>Modo Silêncio</option><option>Modo Desabafo</option><option>Massagem relaxante tradicional</option></select>
+<label>Melhor período</label>
+<select id="per"><option>Fim da tarde (dias úteis)</option><option>Noite (dias úteis)</option><option>Sábado</option></select>
+<button class="btn fill" type="submit">Enviar pelo WhatsApp</button>
+<small>Você será levada(o) ao WhatsApp com a mensagem pronta. Não pedimos dados de saúde por aqui.</small>
+</form>
+</div></section>
+
+<footer>&copy; 2026 Marciene Mendes. Todos os direitos reservados.<br>Massagem somato-emocional é um serviço de bem-estar e não substitui acompanhamento psicológico ou médico.</footer>
+<a class="wa" id="wa3" href="#" target="_blank" rel="noopener">WhatsApp</a>
+
+<script>
+var NUM="553184794042";
+function wa(t){return "https://wa.me/"+NUM+"?text="+encodeURIComponent(t)}
+var base="Olá, Marciene! Gostaria de saber o valor e a disponibilidade para uma sessão.";
+["wa1","wa2","wa3"].forEach(function(id){var e=document.getElementById(id);e.href=wa(base);e.target="_blank"});
+function enviar(ev){ev.preventDefault();
+ var t="Olá, Marciene! Sou "+document.getElementById("nome").value+". Quero conhecer a sessão Toque e Desabafo. Prefiro: "+document.getElementById("modo").value+". Melhor período: "+document.getElementById("per").value+". Pode me passar valores e horários?";
+ window.open(wa(t),"_blank");return false}
+document.querySelectorAll("#menu a").forEach(function(a){a.addEventListener("click",function(){document.getElementById("menu").classList.remove("open")})});
+
+var Z={
+1:["Mandíbula e ATM","Palavras engolidas, raiva contida, necessidade de controle.","Quais palavras ficaram presas essa semana?"],
+2:["Pescoço, cervical e trapézios","Excesso de responsabilidade, cobrança, medo de julgamento.","De quem é o peso que está nesses ombros agora?"],
+3:["Tórax, peitoral e diafragma","Mágoa, tristeza, luto, vulnerabilidade. A respiração fica curta.","O que ficou guardado no peito que ainda pesa lembrar?"],
+4:["Plexo solar e abdômen","Dificuldade de digerir situações, ansiedade pelo futuro.","Que situação você sente que não está conseguindo digerir?"],
+5:["Lombar e sacro","Insegurança, falta de apoio, medo de escassez.","Onde falta apoio na sua vida hoje?"],
+6:["Pelve, glúteos e quadris","Culpa, rigidez, vontade de fugir de uma situação.","O que você não está se permitindo viver?"],
+7:["Braços, punhos e mãos","Dificuldade de dizer não, de limitar, ou de receber depois de doar muito.","Para quem você precisa dizer um não firme?"],
+8:["Pernas, joelhos e pés","Medo de avançar, indecisão, falta de aterramento.","Qual passo você vem adiando?"]};
+var zf=[[1,100,52,17,7],[2,100,84,40,9],[3,100,122,24,17],[4,100,172,24,18],[6,100,226,32,13],[7,29,190,9,24],[7,171,190,9,24],[8,80,340,12,38],[8,120,340,12,38]];
+var zb=[[2,100,84,40,9],[3,100,128,30,18],[5,100,196,26,14],[6,100,232,34,13],[7,29,190,9,24],[7,171,190,9,24],[8,80,340,12,38],[8,120,340,12,38]];
+function fig(zs,ox,tt){var s='<g transform="translate('+ox+',10)"><g fill="#EFD9C7" stroke="#D9B79E" stroke-width="1.2"><circle cx="100" cy="34" r="25"/><rect x="90" y="56" width="20" height="20" rx="6"/><path d="M60 80 Q100 68 140 80 L150 94 L146 200 Q144 236 136 252 L64 252 Q56 236 54 200 L50 94 Z"/></g><g fill="none" stroke="#EFD9C7" stroke-width="17" stroke-linecap="round"><path d="M48 98 L32 190 L26 262"/><path d="M152 98 L168 190 L174 262"/><path d="M82 252 L80 350 L78 432"/><path d="M118 252 L120 350 L122 432"/></g>';
+ zs.forEach(function(z){s+='<g class="zg" data-z="'+z[0]+'" onclick="pick('+z[0]+')" style="cursor:pointer"><ellipse class="zone" data-z="'+z[0]+'" cx="'+z[1]+'" cy="'+z[2]+'" rx="'+z[3]+'" ry="'+z[4]+'" fill="#B8603A" fill-opacity=".55" stroke="#B8603A"/><text x="'+z[1]+'" y="'+(z[2]+4)+'" text-anchor="middle" font-family="Lato" font-weight="700" font-size="12" fill="#fff" pointer-events="none">'+z[0]+'</text></g>'});
+ return s+'<text x="100" y="466" text-anchor="middle" font-family="Cormorant Garamond" font-size="17" fill="#8E4527" font-weight="700">'+tt+'</text></g>'}
+document.getElementById("mapsvg").innerHTML='<svg viewBox="0 0 420 480" xmlns="http://www.w3.org/2000/svg">'+fig(zf,0,"Frente")+fig(zb,210,"Costas")+'</svg>';
+function pick(n){var d=Z[n];document.querySelectorAll(".zone").forEach(function(e){e.classList.toggle("on",e.getAttribute("data-z")==n)});
+ document.getElementById("panel").innerHTML='<h3>'+n+'. '+d[0]+'</h3><p><b>Pistas que costumam aparecer:</b> '+d[1]+'</p><p class="q">Pergunta de abertura: "'+d[2]+'"</p><p class="hint">Hipóteses de trabalho, não diagnósticos. No Modo Silêncio, a pergunta é opcional.</p>'}
+</script>
+</body></html>
