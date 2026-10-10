@@ -9,15 +9,15 @@
 <meta property="og:locale" content="pt_BR">
 <meta property="og:site_name" content="Marciene Mendes">
 <meta property="og:url" content="https://marcienemendes.top/">
-<meta property="og:title" content="Marciene Mendes | Massoterapeuta em Congonhas, MG">
+<meta property="og:title" content="Studio Marciene Mendes | Massoterapeuta em Congonhas, MG">
 <meta property="og:description" content="Massagem profunda com escuta acolhedora. O que você não diz, minhas mãos escutam.">
 <meta property="og:image" content="https://marcienemendes.top/assets/og-whatsapp.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Logomarca Marciene Mendes Massoterapeuta">
+<meta property="og:image:alt" content="Logomarca Studio Marciene Mendes Massoterapeuta">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Marciene Mendes | Massoterapeuta em Congonhas, MG">
+<meta name="twitter:title" content="Studio Marciene Mendes | Massoterapeuta em Congonhas, MG">
 <meta name="twitter:description" content="Massagem profunda com escuta acolhedora. O que você não diz, minhas mãos escutam.">
 <meta name="twitter:image" content="https://marcienemendes.top/assets/og-whatsapp.jpg">
 <link rel="icon" type="image/png" href="assets/favicon.png">
@@ -44,7 +44,7 @@ section{padding:84px 0;scroll-margin-top:80px}
 .btn.line{background:transparent;color:var(--terra-d)}.btn.line:hover{background:var(--terra);color:#fff}
 header{position:sticky;top:0;z-index:50;background:rgba(251,245,238,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--sand)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:80px}
-.nav img{height:62px;width:auto}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}.brand img{height:62px;width:auto}.brand span{display:flex;flex-direction:column;line-height:1.15}.brand b{font-family:"Cormorant Garamond",serif;font-size:1.22rem;letter-spacing:.16em;color:#9A5A50;font-weight:700}.brand small{font-size:.62rem;letter-spacing:.38em;color:#9A5A50;font-weight:700}
 .nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
 .nav a{text-decoration:none;font-size:.88rem;font-weight:700;color:var(--ink)}
 .nav a:hover{color:var(--terra)}
@@ -120,7 +120,7 @@ summary{cursor:pointer;font-weight:700;color:var(--terra-d)}
 .contato h2{color:#fff}
 .contato .grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
 .contato .info p{margin:.6em 0}
-.contato img.logo{height:96px;width:auto;background:#FBF5EE;border-radius:12px;padding:8px 18px;margin-bottom:18px}
+.contato img.logo{height:150px;width:auto;background:#FCF0EC;border-radius:14px;padding:12px 26px;margin-bottom:18px}
 .form{background:#fff;color:var(--ink);border-radius:20px;padding:30px}
 .form label{display:block;font-size:.84rem;font-weight:700;margin:14px 0 4px;color:var(--terra-d)}
 .form input,.form select{width:100%;padding:12px 14px;border:1px solid #e0d0c0;border-radius:10px;font:inherit}
@@ -128,6 +128,7 @@ summary{cursor:pointer;font-weight:700;color:var(--terra-d)}
 .form small{display:block;margin-top:12px;color:var(--mute);font-size:.8rem}
 footer{background:#2b1d17;color:#c9b8aa;text-align:center;padding:34px 22px;font-size:.85rem}
 .wa{position:fixed;right:18px;bottom:18px;z-index:60;background:#25D366;color:#fff;border-radius:50px;padding:13px 20px;font-weight:700;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.25);font-size:.9rem}
+@media(max-width:560px){.brand span{display:none}}
 @media(max-width:900px){
  .nav ul{display:none;position:absolute;top:80px;left:0;right:0;background:var(--cream);flex-direction:column;padding:18px 22px;gap:14px;border-bottom:1px solid var(--sand)}
  .nav ul.open{display:flex}.burger{display:block}.nav .btn{display:none}
@@ -141,7 +142,7 @@ footer{background:#2b1d17;color:#c9b8aa;text-align:center;padding:34px 22px;font
 <body>
 
 <header><div class="wrap nav">
-<a href="#inicio"><img src="assets/logo-mm-header.png" alt="Marciene Mendes"></a>
+<a class="brand" href="#inicio"><img src="assets/logo-mm-monograma.png" alt="Logomarca MM, Studio Marciene Mendes"><span><b>MARCIENE MENDES</b><small>MASSOTERAPEUTA</small></span></a>
 <button class="burger" aria-label="Menu" onclick="document.getElementById('menu').classList.toggle('open')">&#9776;</button>
 <ul id="menu">
 <li><a href="#inicio">Início</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#servicos">Serviços</a></li>
@@ -271,7 +272,7 @@ footer{background:#2b1d17;color:#c9b8aa;text-align:center;padding:34px 22px;font
 </div></section>
 
 <section class="contato" id="contato"><div class="wrap grid">
-<div class="info"><img class="logo" src="assets/logo-mm-header.png" alt="Marciene Mendes">
+<div class="info"><img class="logo" src="assets/logo-studio-mm.png" alt="Studio Marciene Mendes Massoterapeuta">
 <h2>Agende Sua Experiência de Bem-Estar</h2>
 <p><b>Endereço:</b> Rua Marechal Floriano, nº 92, sala 208, Congonhas, MG</p>
 <p><b>WhatsApp:</b> (31) 98479-4042</p>
